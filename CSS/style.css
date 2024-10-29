@@ -296,7 +296,7 @@ span {
     color: var(--MAIN-COLOR);
 }
 
-/* .about {
+ .about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,7 +388,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.portfolio {
+/*.portfolio {
     padding-bottom: 10rem;
 }
 
