@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taiwo's Portfolio</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/Taiwo's home.svg" type="image/svg+xml" />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><img
+          src="./img/Taiwo's home.svg"
+          width="105"
+          height="85"
+          alt="Taiwo home"
+      /></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, I am</h3>
+        <h1>Taiwo Oladejo</h1>
+        <p>
+          ...the wordsmith who transforms ideas into unforgettable stories. I
+          infuse every line with charm, helping your brand connect and
+          captivate. Curious about unending possiblities? Well, there's only one
+          way to find out...
+        </p>
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <a href="" class="btn dr">Download Resume</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bxs-happy-beaming"></i>
+            <h3>and i'm a;</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-edit-alt"></i>
+            <h3>Copy Writer,</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bxs-slideshow"></i>
+            <h3>Content Writer,</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bxs-ghost"></i>
+            <h3>Ghost Writer.</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="img/Main image.png" alt="" />
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!-- about section design -->
+    <!-- <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="./img/Sis_Betty_s_About_image-removebg-preview.png"
+          alt="About image"
+        />
+      </div>
+
+      <div class="about-content read-more-container">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help On Your Next Project!</h3>
+        <p>
+          I'm Betty, originally from someplace on the face of the earth almost
+          divided in half by the equator(look it up, it does exist), where my
+          journey into writing began. My passion for storytelling led me to hone
+          my skills through extensive learning and research. With a blend
+          of...<span class="read-more-text">
+            creativity and dedication, I bring a fresh perspective to every
+            project. Known for my reliability, accessibility, and trustworthy
+            problem-solving skills, I ensure each project is handled with
+            precision and care. Let's work together to transform your ideas into
+            something extraordinary and achieve your goals with flair!</span
+          >
+        </p>
+        <span class="btn read-more-btn">Read More</span>
+      </div>
+    </section> -->
+
+    <!-- services section design -->
+    <!-- <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container read-more-containers">
+        <div class="services-box container">
+          <i class="bx bx-pencil"></i>
+          <h3>Copy Writing</h3>
+          <p>
+            When words need to make an impact, I'm here to craft compelling copy
+            that doesn't just communicate but captivates. Whether it's for your
+            website, ads, or social media, I ensure each word serves a purpose:
+            to drive action. With a focus on...<span class="read-more-text">
+              clarity and engagement, my copywriting combines creativity with
+              strategic thinking to help your brand connect with its audience,
+              strengthen your message, and boost your conversion rates. Let's
+              turn your ideas into persuasive, results-driven copy.</span
+            >
+          </p>
+          <span class="btn read-more-btn">Read More</span>
+        </div>
+
+        <div class="services-box container">
+          <i class="bx bxs-book-content"></i>
+          <h3>Content Writing</h3>
+          <p>
+            Great content is more than just information—it's a conversation. I
+            specialize in writing engaging blog posts, articles, and long-form
+            content that resonates with readers. With a deep understanding of
+            your audience and your...<span class="read-more-text">
+              brand, I'll help create content that educates, inspires, and
+              drives action. Let's collaborate to craft stories that leave an
+              impact and position your brand as a trusted voice in your
+              field.</span
+            >
+          </p>
+          <span class="btn read-more-btn">Read More</span>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-hide"></i>
+          <h3>Ghost Writing</h3>
+          <p>
+            Your story, my words. Ghostwriting is about capturing your vision
+            and crafting it into a narrative that reflects your voice. Whether
+            it's a book, memoir, or professional material, I'll handle the
+            writing while you remain the face behind the...<span
+              class="read-more-text"
+            >
+              content. With attention to detail and respect for you unique
+              perspective, I turn your ideas into a polished and professional
+              piece. Let's work together to bring your thoughts to life while
+              you stay in the spotlight.</span
+            >
+          </p>
+          <span class="btn read-more-btn">Read More</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- portfolio section design -->
+    <!-- <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./img/Sales copywriting.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Sales Copywriting</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/Brand copywriting.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Brand Copywriting</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/SEO copywriting.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>SEO Copywriting</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/Blog writing2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Blog Writing</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/SEO content writing.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>SEO Content Writing</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/Social Media Content.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Social Media Content</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/Romance.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Romance</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/Thriller.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Thriller/Mystery</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./img/sci-fi.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Fantasy</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              similique asperiores!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- testimonial design -->
+    <!-- <div class="testimonial-container">
+      <h2 class="heading">
+        What <span>My Clients</span> Say <span>About Me</span>
+      </h2>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="./img/testimonial dummy image1.jpg" alt="" />
+              <h3>Fisayo Alexander</h3>
+              <p>
+                As a fellow copywriter, I was initially hesitant to bring
+                someone else on board for a major project. However, working with
+                Betty was a fantastic decision. Her sales copywriting skills are
+                exceptional. Together, we crafted compelling copy for our
+                client's new product launch, which resulted in a 40% increase in
+                conversions. She brought fresh ideas and was great to
+                collaborate with. I look forward to future projects together!
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./img/testimonial dummy image6.jpg" alt="" />
+              <h3>Aribilola Aderinsola</h3>
+              <p>
+                Collaborating with Betty on my romance novel was an absolute
+                pleasure. She took my initial concept and turned it into a
+                captivating story that my readers adore. Her ability to
+                understand my vision and bring the characters to life was
+                remarkable. The positive feedback from readers has been
+                overwhelming, and I can't wait to work with Betty on my next
+                book.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./img/testimonial dummy image4.jpg" alt="" />
+              <h3>Oluwagbogo Michael</h3>
+              <p>
+                Collaborating with Betty on the brand and sales copy for Glow
+                Beauty was an absolute game-changer. Her visionary approach and
+                insightful content laid the perfect foundation for the project.
+                I was able to elevate the message through dynamic video editing,
+                and together, we crafted a cohesive and compelling narrative.
+                The impact has been remarkable, customer engagement soared, and
+                we saw a significant boost in sales. It's been an honor to work
+                with Betty and see the impressive results of our collaboration.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./img/testimonial dummy image3.jpg" alt="" />
+              <h3>Kolawole Timilehin</h3>
+              <p>
+                Working with Betty on our collaborative novel was an incredible
+                experience. She brought such creativity and insight to the
+                table, turning our initial concept into a mesmerizing story that
+                captivated our readers. The response has been overwhelmingly
+                positive, with many praising the originality and depth of the
+                narrative. Betty exceeded all expectations, and the synergy
+                between our ideas created something truly special and memorable.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- contact sectin design -->
+    <!-- <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 @d_certified_dev. All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer> -->
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="JS/script.js"></script>
+  </body>
+</html>

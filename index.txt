@@ -1,0 +1,21 @@
+> Boxicons for Sis.Betty's portfolio (courtesy of Chatgpt)
+
+-COPY WRITING
+
+
+<i class='bx bx-copy'></i>		copy
+<i class='bx bx-pencil'></i>		pencil	
+<i class='bx bx-notepad'></i>		notepad
+
+-CONTENT WRITING
+
+
+<i class='bx bx-book-content'></i>	book content
+<i class='bx bx-note'></i>		note
+<i class='bx bx-font'></i>		font
+
+-GHOST WRITING
+
+<i class='bx bx-hide'></i>		hide
+<i class='bx bx-file-hidden'></i>	hidden
+<i class='bx bx-user-secret'></i>	user secret
